@@ -22,8 +22,8 @@ Este projeto utiliza um Raspberry Pi Pico W para controlar LEDs RGB e um display
 Conecte os componentes conforme as conexões abaixo:
 
 ### Conexão do Display OLED SSD1306 (I2C):
-- **Pino SDA**: GPIO 14 do Raspberry Pi Pico.
-- **Pino SCL**: GPIO 15 do Raspberry Pi Pico.
+- **Pino SDA**: GPIO 14 do Raspberry Pi Pico W.
+- **Pino SCL**: GPIO 15 do Raspberry Pi Pico W.
 
 ### Conexão do Joystick:
 - **Eixo X**: GPIO 27 
