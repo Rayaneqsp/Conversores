@@ -88,7 +88,7 @@ Certifique-se de conectar resistores adequados em série com os LEDs para limita
 ## Autora
 RAYANE QUEIROZ DOS SANTOS PASSOS
 
-## LINK VIDEO:https://drive.google.com/drive/folders/1vPnpPM3RwSaW0MVbKOGi9hkiG2cTcyfv?usp=drive_link
+## LINK VIDEO: [https://drive.google.com/file/d/1J3YFpolhfOKWG8-v4XROqkEpFUXXNUH9/view?usp=sharing]
 
 
 
