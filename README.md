@@ -11,10 +11,9 @@ Este projeto utiliza um Raspberry Pi Pico W para controlar LEDs RGB e um display
 - LEDs RGB (vermelho, verde e azul).
 - Display OLED SSD1306 (resolução 128x64).
 - Resistor de pull-up (integrado ou externo, se necessário).
-- Protoboard e jumpers.
 
 ### Software:
-- SDK do Raspberry Pi Pico configurado no ambiente de desenvolvimento (C/C++).
+- SDK do Raspberry Pi Pico configurado no ambiente de desenvolvimento (C).
 - Biblioteca SSD1306 para o controle do display (inclusa no diretório `inc`).
 
 ## Configuração do Hardware
@@ -46,7 +45,9 @@ Certifique-se de conectar resistores adequados em série com os LEDs para limita
    Configure o ambiente de desenvolvimento para compilar e carregar códigos C/C++ no Raspberry Pi Pico. Siga a [documentação oficial](https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf).
 
 2. **Clone o Repositório**:
-   Certifique-se de que o código fornecido e os arquivos de cabeçalho estejam organizados adequadamente.
+   No terminal do vscode coloque:
+
+   git clone https://github.com/Rayaneqsp/Conversores.git
 
 3. **Compile o Código**:
    - Navegue até o diretório raiz do projeto.
@@ -73,10 +74,8 @@ Certifique-se de conectar resistores adequados em série com os LEDs para limita
 
 2. **Estilos de Borda no Display**:
    - Pressione o botão do joystick para alternar entre os estilos de borda:
-     - Sem borda.
-     - Borda simples.
      - Borda dupla.
-     - Borda tracejada.
+     - Borda tripla.
 
 3. **Controle de LEDs RGB**:
    - O LED vermelho é controlado pela posição do eixo X do joystick.
@@ -84,7 +83,7 @@ Certifique-se de conectar resistores adequados em série com os LEDs para limita
    - O LED verde alterna entre ligado e desligado ao pressionar o botão do joystick.
 
 4. **Ativação/Desativação do PWM**:
-   - Pressione o botão A para ativar ou desativar o controle de intensidade por PWM dos LEDs vermelho e azul.
+   - Pressione o botão A para ativar ou desativar o led RGB.
 
 ## Autora
 RAYANE QUEIROZ DOS SANTOS PASSOS
